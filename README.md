@@ -9,8 +9,9 @@ To run the example project, clone the repo, and run `.xcodeproj`.
 
 ## Build
 
+The main idea is to be able to manage all view which you need separatly. You can achieve this by creating `PageviewController` in the `ContainerView` of `MainViewController`. For each pageItemyou should create a separate `ViewController` and the `.swift` file approriate.
 
-![Alt text](https://github.com/svetlanama/ASPageControllerSample/blob/master/ReadmeImages/storyboard.gif "Max Height Demo")
+![Alt text](https://github.com/svetlanama/ASPageControllerSample/blob/master/ReadmeImages/storyboard.png "Max Height Demo")
 
 
 ## Demo
