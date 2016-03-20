@@ -72,8 +72,11 @@ final class UINavigationButton: UIButton {
   
   private func updateControlsStates() {
 
-      layer.borderColor = UIColor.darkGrayColor().CGColor
-      layer.borderWidth = isSelectedState ? 0.5 : 0
+      //layer.borderColor = UIColor.redColor().CGColor
+      //layer.borderWidth = isSelectedState ? 0.5 : 0
+    
+    backgroundColor = !isSelectedState ? backgroundColor?.colorWithAlphaComponent(0.5) : backgroundColor?.colorWithAlphaComponent(1)
+   
 
 //    if isSelectedState {
 //      setImage(type.getHighlightedImage(), forState: .Normal)

@@ -11,6 +11,7 @@ import UIKit
 
 class ThirdTableViewCell: UITableViewCell {
   
+  let images = ["image1.jpg","image2.jpeg", "image3.jpeg", "image4.jpeg", "image5.jpeg","image6.jpg"]
   @IBOutlet weak var iImage: UIImageView!
   
   override func awakeFromNib() {
@@ -24,7 +25,8 @@ class ThirdTableViewCell: UITableViewCell {
   }
   
   func setContent() {
-    iImage.backgroundColor = UIColor.grayColor()
+    //iImage.backgroundColor = UIColor.grayColor()
+     iImage.image = UIImage(named: images[Int(arc4random_uniform(UInt32(images.count - 1)))])
     backgroundColor = UIColor(named: UIColor.AppColor.VividTangerineApprox)
   }
   

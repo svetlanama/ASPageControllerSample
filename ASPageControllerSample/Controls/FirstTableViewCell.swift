@@ -11,7 +11,7 @@ import UIKit
 
 class FirstTableViewCell: UITableViewCell {
   
-
+  let news = ["Majority Threshold", "This weekend to considering ....", "Energy solutions", "Waste and recycling", "Water solutions", "Halthcare", "Technology news...", "BBC", "Last few years ..."]
   @IBOutlet weak var txtMessage: UILabel!
 
   override func awakeFromNib() {
@@ -25,7 +25,7 @@ class FirstTableViewCell: UITableViewCell {
   }
   
   func setContent() {
-    txtMessage.text = "first cell message"
+    txtMessage.text = news[Int(arc4random_uniform(UInt32(news.count - 1)))]
     backgroundColor = UIColor(named: UIColor.AppColor.RegentStBlueApprox)
   }
   
