@@ -22,10 +22,10 @@ The main idea is to be able to manage all view which you need separately. You ca
 
 ## Author
 
-Alexander Vasileyko, vasileyko.alex@gmail.com (https://github.com/alexnodejs)
+https://github.com/alexnodejs
 
-Svitlana Moiseyenko, alexandrovna.sveta@gmail.com (https://github.com/svetlanama)
+https://github.com/svetlanama
 
 ## License
 
-ASAutoResizingTextView is available under the MIT license. See the LICENSE file for more info.
+ASPageControllerSample is available under the MIT license. See the LICENSE file for more info.
